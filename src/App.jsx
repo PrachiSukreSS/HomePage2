@@ -9,7 +9,12 @@ import {
 function App() {
   return (
     <div
-      style={{ backgroundColor: "#171616" }}
+      style={{
+        backgroundColor: "#171616",
+        //  backgroundImage: "url('bg2.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
       className="min-h-screen text-white font-sans flex flex-col items-start"
     >
       {/* Header Section */}
@@ -17,7 +22,7 @@ function App() {
         <nav className="flex justify-between items-center">
           {/* Logo or Brand Name */}
           <div className="text-2xl font-bold">
-            <img src="/path/to/logo.png" alt="Logo" className="h-8" />
+            <img src="logo3.png" alt="Logo" className="h-8" />
           </div>
           {/* Navigation Links */}
           <div className="flex items-center space-x-8">
@@ -57,7 +62,7 @@ function App() {
 
       <div className="w-full max-w-4xl mx-4 flex-grow flex flex-col justify-center">
         {/* Main Section */}
-        <main className="flex flex-col md:flex-row justify-center items-start text-left p-12 mt-4 ml-12">
+        <main className="flex flex-col md:flex-row justify-between items-start text-left p-12 mt-4 ml-12">
           <div className="flex flex-col items-start text-left md:w-2/3">
             <h1
               className="text-6xl font-extrabold text-red-600 mb-4 ml-12"
@@ -92,13 +97,15 @@ function App() {
               </a>
             </div>
           </div>
-          <div className="md:w-1/3 flex justify-center items-center mt-8 md:mt-0">
+          {/* Image 
+          <div className="md:w-1/3 flex justify-center items-center ml-12">
             <img
-              src="/path/to/hacker-theme-image.jpg"
-              alt="image"
-              className="rounded-lg shadow-lg"
+              src="image2.png"
+              alt="Coding Club"
+              className="h-[400px] w-[900px] object-cover rounded-lg shadow-lg"
             />
           </div>
+          */}
         </main>
       </div>
     </div>
