@@ -1,9 +1,9 @@
-import SpaceWarp from "./Space";
+//import SpaceWarp from "./Space";
 
 const AboutPage = () => {
   return (
-    <div className="relative min-h-screen text-white">
-      <SpaceWarp />
+    <div className="relative min-h-9-screen  text-white w-full flex flex-col items-center justify-center">
+      {/* <SpaceWarp /> */}
       <div className="relative z-10 max-w-4xl mx-auto text-center p-10 mt-20">
         <h1 className="text-4xl font-bold text-[#c084fc]">
           Why Coding Club RSCOE?
