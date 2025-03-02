@@ -8,7 +8,7 @@ function App() {
       <div className="relative w-full flex flex-col items-center justify-center mt-0">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover min-h-screen"
-          style={{ minHeight: "120vh" }} // Ensure the video covers the whole page
+          style={{ minHeight: "150vh" }} // Ensure the video covers the whole page
           autoPlay
           loop
           muted

@@ -33,7 +33,7 @@ const HeroSection = () => {
           </h1>
           <p
             className="text-xl text-white text-semibold mb-2"
-            style={{ fontFamily: "MS Sans Serif" }}
+            style={{ fontFamily: "Inria Sans-serif", fontWeight: "semibold" }}
           >
             NEVER MISS A NOTE, IDEA OR CONNECTION
           </p>
