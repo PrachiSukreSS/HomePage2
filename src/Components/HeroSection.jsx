@@ -5,8 +5,8 @@ const HeroSection = () => {
     <div className="w-full max-w-4xl mx-6 flex-grow flex flex-col justify-left items-left">
       {/* Hero Section */}
       <div
-        className="bg-white bg-opacity-10 rounded-full p-2 mb-2 w-2/3 text-center align-left"
-        style={{ marginLeft: "8%", marginTop: "8%", marginBottom: "0%" }}
+        className="bg-white bg-opacity-10 rounded-full p-1 mb-2 w-2/4 text-center align-left"
+        style={{ marginLeft: "25%", marginTop: "5%", marginBottom: "0%" }}
       >
         <p className="text-xl font-semibold text-white text-center">
           Time to dive into code!
@@ -17,7 +17,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-start text-left md:w-full">
           {/* Add your content here */}
           <h1
-            className="text-6xl text-white font-extrabold text-white-600 mb-6"
+            className="text-8xl text-white font-extrabold text-white-600 mb-6"
             style={{ fontFamily: "MS Sans Serif" }}
           >
             Learn - Grow - Inspire with Us
