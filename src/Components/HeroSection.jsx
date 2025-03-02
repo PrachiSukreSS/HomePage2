@@ -6,9 +6,12 @@ const HeroSection = () => {
       {/* Hero Section */}
       <div
         className="bg-blackviolet bg-opacity-10 rounded-full p-1 mb-2 w-2/4 text-center border border-blackviolet relative"
-        style={{ marginTop: "5%", marginBottom: "0%" }}
+        style={{ marginTop: "5%", marginBottom: "0%", fontFamily: "Inter" }}
       >
-        <p className="text-xl font-semibold text-purple-600 relative z-10">
+        <p
+          className="text-xl  text-purple-400 relative z-10"
+          style={{ fontFamily: "Inter" }}
+        >
           Time to dive into code!
         </p>
         <div className="absolute inset-0 rounded-full border-2 border-purple-600 opacity-75 "></div>
@@ -22,18 +25,23 @@ const HeroSection = () => {
       </div>
       <main className="flex flex-col md:flex-row justify-between items-center text-center p-12 mt-0">
         <div className="flex flex-col items-center md:w-full mt-[-8rem]">
-          {/* Add your content here */}
           <h1
-            className="text-6xl text-white font-extrabold mb-8"
+            className="text-6xl text-white font-extrabold text-shadow-md mb-8"
             style={{ fontFamily: "MS Sans Serif" }}
           >
-            Learn - Grow - Inspire with Us
+            Learn- Grow- Inspire With Us
           </h1>
+          <p
+            className="text-xl text-white text-semibold mb-2"
+            style={{ fontFamily: "MS Sans Serif" }}
+          >
+            NEVER MISS A NOTE, IDEA OR CONNECTION
+          </p>
 
-          <div className="mt-40 flex mr-12 ml-0 justify-start w-full text-justify  ">
+          <div className="mt-40 flex mr-12 ml-0 justify-start w-full text-justify">
             <h2 className="text-8xl font-medium text-white mb-8 flex items-center justify-start">
               <div className="relative group mr-12 justify-start">
-                <button className="group relative inline-flex overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-4 focus:ring-offset-2 focus:ring-offset-slate-50 ">
+                <button className="group relative inline-flex overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-4 focus:ring-offset-2 focus:ring-offset-slate-50">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600"></span>
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-8 py-3 text-sm font-medium backdrop-blur-3xl transition-all duration-300 group-hover:bg-slate-950/90">
                     <svg
@@ -70,7 +78,6 @@ const HeroSection = () => {
               </div>
             </h2>
           </div>
-          {/* Description */}
           <p className="text-2xl mb-2 opacity-80 text-justify w-[120%]">
             Welcome to the RSCOE Coding Club, Join us to learn, inspire, and
             grow as we explore the endless possibilities of coding and
