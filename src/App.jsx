@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
 import HeroSection from "./Components/HeroSection";
-import AboutUsSection from "./Components/AboutPage"; // Import the AboutUsSection component
+import AboutUsSection from "./Components/AboutPage";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className="relative w-full flex flex-col items-center justify-center mt-0">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover min-h-screen"
-          style={{ minHeight: "150vh" }} // Ensure the video covers the whole page
+          style={{ minHeight: "135vh" }} // Ensure the video covers the whole page
           autoPlay
           loop
           muted
@@ -29,7 +29,7 @@ function App() {
             "url('C:/Users/prach/Desktop/React with Tailwind/Practice copy 2/public/bg.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          minHeight: "calc(200vh - 180vh)", // Ensure the background image covers the remaining part below the video
+          minHeight: "calc(180vh - 180vh)", // Ensure the background image covers the remaining part below the video
         }}
       >
         <div className="w-full flex justify-center">
