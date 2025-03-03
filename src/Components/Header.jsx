@@ -8,7 +8,7 @@ import {
 
 const Header = () => {
   return (
-    <header className="bg-[#3d304c99] py-2 px-8 rounded-lg w-full mx-auto mt-4">
+    <header className="bg-[#2f243b99] py-2 px-8 rounded-lg w-full mx-auto mt-4">
       <nav className="flex justify-between items-center">
         {/* Logo or Brand Name */}
         <div className="text-2xl font-bold">

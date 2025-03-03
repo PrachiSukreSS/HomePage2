@@ -1,4 +1,4 @@
-import { FaInfoCircle } from "react-icons/fa";
+//import { FaInfoCircle } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -29,16 +29,18 @@ const HeroSection = () => {
             className="text-6xl text-white font-extrabold text-shadow-md mb-8"
             style={{ fontFamily: "MS Sans Serif" }}
           >
-            Learn- Grow - Inspire With Us
+            <span className="font-extrabold text-shadow-lg">
+              Learn- Grow - Inspire With Us
+            </span>
           </h1>
           <p
-            className="text-xl text-gray-400 text-semibold mb-2"
-            style={{ fontFamily: "Inria Sans-serif", fontWeight: "semibold" }}
+            className="text-2xl text-gray-400 text-semibold mb-2"
+            style={{ fontFamily: "Sora", fontWeight: "semibold" }}
           >
-            NEVER MISS A NOTE, IDEA OR CONNECTION
+            Never miss a note, code or a connection!
           </p>
 
-          <div className="mt-60 flex mr-12 ml-0 justify-start w-full text-justify">
+          <div className="mt-80 flex mr-12  justify-start w-full text-justify">
             <h2 className="text-8xl font-medium text-white mb-8 flex items-center justify-start">
               <div className="relative group mr-12 justify-start">
                 <button className="group relative inline-flex overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-4 focus:ring-offset-2 focus:ring-offset-slate-50">
@@ -78,19 +80,20 @@ const HeroSection = () => {
               </div>
             </h2>
           </div>
-          <p className="text-2xl mb-12 opacity-80 text-justify w-[130%]">
+          <p className="text-2xl mb-2 opacity-80 text-justify w-[130%]">
             Welcome to the RSCOE Coding Club, Join us to learn, inspire, and
             grow as we explore the endless possibilities of coding and
             programming. We believe that coding is an art and we are here to
             help you master it.
           </p>
-          <p
+          {/*   <p
             className="text-gray-400 text-lg flex items-start cursor-pointer justify-start"
             onClick={() => (window.location.href = "#AboutUsSection")}
           >
             <FaInfoCircle className="mr-2" />
             Explore more
           </p>
+          */}
         </div>
       </main>
     </div>
