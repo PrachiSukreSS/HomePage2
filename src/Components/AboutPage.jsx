@@ -4,7 +4,7 @@
 
 const AboutPage = () => {
   return (
-    <div className="relative min-h-screen text-white font-sans flex flex-col items-start">
+    <div className="relative min-h-screen text-white font-sans flex flex-col items-start pt-0 mt-0">
       {/* Background Image */}
       <div className="absolute top-0 -left-0 right-0 w-full h-full">
         <img
@@ -15,7 +15,7 @@ const AboutPage = () => {
         />
       </div>
       {/* <SpaceWarp /> */}
-      <div className="relative z-10  max-w-4xl mx-auto text-center p-10 mt-20">
+      <div className="relative z-10 mb-8 max-w-4xl mx-auto text-center p-10 mt-20">
         <h1 className="text-4xl font-bold text-[#c084fc]">
           Why Coding Club RSCOE?
         </h1>

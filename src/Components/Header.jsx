@@ -8,8 +8,8 @@ import {
 
 const Header = () => {
   return (
-    <header className="bg-[#2f243b99] py-2 px-8 rounded-lg w-full mx-auto mt-4">
-      <nav className="flex justify-between items-center">
+    <header className="bg-[#2f243b99] py-1 px-9 p-0 rounded-lg w-full mx-auto mt-0">
+      <nav className="flex justify-between items-center mt-1">
         {/* Logo or Brand Name */}
         <div className="text-2xl font-bold">
           <a href="/">
